@@ -6,7 +6,7 @@ categories: [Miscellaneous]
 
 Welcome to my corner of Github. This is where I collect beta and final versions of software and manuscript that I have produced. Enjoy!
 
-![](/images/reverie-demo.png)
+![](/images/logo.pdf)
 
 ## My Github overview
 
