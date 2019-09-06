@@ -18,14 +18,11 @@ Welcome to my corner of Github. This is where I collect beta and final versions 
  <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D6KJY&placement=wwwamitmerchantcom" id="_carbonads_js"></script>
 </div>
 
-## Using Reverie on GitHub Pages
+## ...
 
-### Step 1) Fork Reverie to your User Repository
-
-Fork [this repository](https://github.com/amitmerchant1990/reverie), then rename the repository to `yourgithubusername.github.io`.
+ 
 
 
-### Step 3) Publish your first blog post
 
 
 Adam
