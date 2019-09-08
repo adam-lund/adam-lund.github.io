@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: 
+name:
 
 # Name of the author
 author: Adam Lund
@@ -68,7 +68,7 @@ sass:
 
 # Use the following plug-ins
 plugins:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-sitemap # Crecte a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
   - jekyll-paginate
