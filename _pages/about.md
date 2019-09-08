@@ -5,15 +5,10 @@ permalink: /about/
 ---
 
 
+I have a background in statistics, mathematics and economics as well as architecture and enjoy developing and implementing software and algorithms for solving statistical learning problems. Some of my academic work is published as manuscripts (see e.g. ArXiv) and some of it as software (CRAN).
 
+Formally I hold a PhD (Statistics) from the University of Copenhagen, a MS degree (IEOR) from Columbia University and MS and BS degrees (Math and Econ) from the University of Copenhagen. I also passed the first year examination at The Royal Danish Academy of Fine Arts, School of Architecture before shifting focus to STEM.
 
 
 
 1. **name**, *title*, venue, year, link
-
-
-
-[tvw146](https://tvw146.github.io/about/)
-## Features
-
-Learn more about it [here](https://github.com/amitmerchant1990/reverie) on how to get started.
