@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-## Paper
+# Paper
 
 1. **Lund, A.**, M. Vincent, and N. R. Hansen. *Penalized estimation in large-scale generalized linear array models*. [Journal of Computational and Graphical Statistics](https://www.tandfonline.com/doi/abs/10.1080/10618600.2017.1279548?journalCode=ucgs20).
 [arXiv link](https://arxiv.org/pdf/1510.03298.pdf).
@@ -15,7 +15,7 @@ permalink: /research/
 5. **Lund, A.**, S. W. Mogensen, and N. R. Hansen (2019). *Soft maximin aggregation of heterogeneous array data*. Preprint.
 [arXiv link](https://arxiv.org/pdf/1805.02407.pdf).
 
-## Software
+# Software
 
 1. **Lund, A.** (2017). *SMMA: Soft Maximin Estimation for Large Scale Array-Tensor Models*. [CRAN](https://cran.r-project.org/web/packages/SMMA/index.html). R package version 1.0.1.
 2. **Lund, A.** (2018). *glamlasso: Penalization in Large Scale Generalized Linear Array Models*. [CRAN](https://cran.r-project.org/web/packages/glamlasso/index.html). R package version 3.0.
