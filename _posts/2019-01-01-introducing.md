@@ -1,23 +1,10 @@
 ---
 layout: post
-title: Introducing
-categories: [Miscellaneous]
+title: Introduction
+categories:
 ---
 
-Welcome to my corner of Github. This is where I collect beta and final versions of software and manuscript that I have produced. Enjoy!
-
-![](/images/logo.pdf)
-
-## My Github overview
-
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-
-
-## ...
-
-
-
-
+Welcome to my Github page. Here I collect beta and final versions of software and manuscript that I've produced. My work is focused on statistics, in particularly computational statistics with a lean towards high dimensional and machine learning themes.
 
 
 Adam
