@@ -36,3 +36,7 @@ $$\begin{align}  E(\tau_x)&=\int_0^1 E(\tau_x\mid U_1=u)du\\
 \end{align}$$
 
 using $E(\tau_{x-u})=0$ for $u>x$, the substitution $s=x-u$ and that $E(\tau_0)=1$. Only $x \mapsto E(\tau_x)=e^{x}$ satisfies this integral equation in particular $E(\tau_1)=e$.
+
+
+
+Happy birthday!
