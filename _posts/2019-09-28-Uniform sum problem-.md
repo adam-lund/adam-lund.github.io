@@ -4,7 +4,7 @@ title: Stopping time
 categories:
 ---
 
-# Question
+#### Question
 
 *Suppose you  independently  sample uniformly from the unit interval and then sum these samples. On average how many times would you have to do this before the sum is  bigger than one?*
 
@@ -15,7 +15,7 @@ Of course, if you really want to land a job, this is not the right approach to t
 
 i)-iii) is *the* industry wide approach to interviewing and apparently this interview dynamic is still second to none when it comes to exposing "how well a job candidate thinks". I came up with the following answer that in particular takes the exact opposite approach of i)-iii).
 
-# Answer
+#### Answer
 
 Let $\\{U_i: i\in \mathbb{N}\\}$ be iid uniform on $[0,1 ]$ and consider $ S_n=\sum_i^nU_i$. Define $ \tau_x=\min_n\\{ n :S_n>x\\} $ for $x\leq 1$ with the convention $\tau_x=0$ when $x\leq0$.
 Clearly $S_{\tau_x}=S_{\tau_x+1 -1}$ so  $\tau_x+1$ is the smallest $n\in \mathbb{N}$ such that $S_{n-1}>x$. Using this fact and the independence we have   for $x\leq1$
