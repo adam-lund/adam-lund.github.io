@@ -6,7 +6,7 @@ categories:
 
 #Question
 
-Suppose you  independently  sample uniformly from the unit interval and then sum these samples. On average how many times would you have to do this before the sum is  bigger than one?
+*Suppose you  independently  sample uniformly from the unit interval and then sum these samples. On average how many times would you have to do this before the sum is  bigger than one?*
 
 This question is apparently a by now classical question from a 1958 Putnam examination. I was unaware of that when I first encountered it as part of  an entrance test I had to solve to get access to a round of interviews with a certain company two years ago. Also I couldn't find a way to solve it back then since my solution relied on knowing the distribution of the n-fold convolution of iid uniform(0,1) variables.  I didn't (and still don't) know this distribution though it does have a closed form expression (originally derived by Laplace I think).      
 
