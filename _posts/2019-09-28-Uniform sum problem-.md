@@ -4,8 +4,6 @@ title: Stopping time
 categories:
 ---
 
-#### Question
-
 *Suppose you  independently  sample uniformly from the unit interval and then sum these samples. On average how many times would you have to do this before the sum is  bigger than one?*
 
 This question -or a variation of it- is apparently by now a well known question from a 1958 Putnam examination. I was unaware of that when I first encountered it as part of  an entrance test I had to solve to get access to a round of interviews with a certain company two years ago. Also I couldn't find a way to solve it back then since my solution relied on knowing the distribution of the n-fold convolution of iid uniform(0,1) variables.  I didn't (and still don't) know this distribution though it does have a closed form expression (originally derived by Laplace I think).      
@@ -15,7 +13,7 @@ Of course, if you really want to land a quantitative job, this is not the right 
 
 i)-iii) is *the* industry wide approach to interviewing and apparently results in an interview dynamic that is still second to none when it comes to revealing "how a job candidate thinks". I came up with the following self contained answer that in particular takes the exact opposite approach to that of i)-iii).
 
-#### Answer
+###### Answer
 
 Let $\\{U_i: i\in \mathbb{N}\\}$ be iid uniform on $[0,1 ]$ and consider $ S_n=\sum_i^nU_i$. Define $ \tau_x=\min_n\\{ n :S_n>x\\} $ for $x\leq 1$ with the convention $\tau_x=0$ when $x\leq0$.
 Clearly $S_{\tau_x}=S_{\tau_x+1 -1}$ so  $\tau_x+1$ is the smallest $n\in \mathbb{N}$ such that $S_{n-1}>x$. Using this fact and the independence we have   for $x\leq1$
