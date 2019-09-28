@@ -19,12 +19,12 @@ Define \( \tau_x=\min_n\{n :S_n>x\}\) for \(x\leq 1\) with the convention \(\tau
 
 Clearly \(S_{\tau_x}=S_{\tau_x+1 -1}\) so  \(\tau_x+1\) is the smallest \(n\in \mathbb{N}\) such that \(S_{n-1}>x\). Using this fact and the independence we have   for \(x\leq1\)
 
-$$
-  E(\tau_x ... U_1=u)
-  =  E(\min_{n }\{n:\sum_{i=1}^{n-1}U_{i+1} >x-u\} ... U_1=u)\\
-  =   E(\min_{n }\{n  :S_{n-1} >x-u\})\\
-   =1+E(\tau_{x-u}).
-$$
+\begin{alignat*}{4}
+  E(\tau_x\mid U_1=u)
+&  =  E(\min_{n }\{n:\sum_{i=1}^{n-1}U_{i+1} >x-u\}\mid U_1=u)\\
+ & =   E(\min_{n }\{n  :S_{n-1} >x-u\})\\
+ &  =1+E(\tau_{x-u}).
+\end{alignat*}
 
 By the law of total expectation for \(x\in (0,1)\)
 
