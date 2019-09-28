@@ -4,17 +4,19 @@ title: Stopping time
 categories:
 ---
 
-Question
+#Question
 
 Suppose you  independently  sample uniformly from the unit interval and then sum these samples. On average how many times would you have to do this before the sum is  bigger than one?
 
 This question is apparently a by now classical question from a 1958 Putnam examination. I was unaware of that when I first encountered it as part of  an entrance test I had to solve to get access to a round of interviews with a certain company two years ago. Also I couldn't find a way to solve it back then since my solution relied on knowing the distribution of the n-fold convolution of iid uniform(0,1) variables.  I didn't (and still don't) know this distribution though it does have a closed form expression (originally derived by Laplace I think).      
 
-A few weeks ago the question resurfaced for some reason and I started to think  about how you might go about solving it without knowing this convolution result or any other piece of niche knowledge for that matter. Of course, if you really want to land a job, this is not the right approach to take to interviewing. Instead what you should do is: i) look up as many questions and the their answers in books on questions from quantitative job interviews as you can, ii) memorize  these questions and answers meticulously  and iii) when asked a question that you remember the solution to, repeat the solution in a way that make it seem like you are deriving the answer and not regurgitating it and -and this is important- at the same time makes your interviewer feel superior. This is the industry wide standard approach to interviewing and apparently this interview dynamic is still second to none when it comes to exposing "how a job candidate thinks".
+A few weeks ago the question resurfaced for some reason and I started to think  about how you might go about solving it without knowing this convolution result or any other piece of niche knowledge for that matter.
+Of course, if you really want to land a job, this is not the right approach to take to interviewing. Instead what you should do is: i) look up as many questions and the their answers in books on questions from quantitative job interviews as you can, ii) memorize  these questions and answers meticulously  and iii) when asked a question that you remember the solution to, repeat the solution in a way that make it seem like you are deriving the answer and not regurgitating it and -and this is important- at the same time makes your interviewer feel superior.
+This is *the* industry wide approach to interviewing and apparently this interview dynamic is still second to none when it comes to exposing "how well a job candidate thinks".
 
 I came up with the following answer that in particular takes the exact opposite approach of i)-iii).
 
-Answer
+#Answer
 
 Let $\\{U_i: i\in \mathbb{N}\\}$ be iid uniform on $[0,1 ]$ and consider $ S_n=\sum_i^nU_i$. Define $ \tau_x=\min_n\\{ n :S_n>x\\} $ for $x\leq 1$ with the convention $\tau_x=0$ when $x\leq0$.
 Clearly $S_{\tau_x}=S_{\tau_x+1 -1}$ so  $\tau_x+1$ is the smallest $n\in \mathbb{N}$ such that $S_{n-1}>x$. Using this fact and the independence we have   for $x\leq1$
@@ -25,7 +27,6 @@ $$\begin{alignat*}{4}
  & =   E(\min_{n }\{n  :S_{n-1} >x-u\})\\
  &  =1+E(\tau_{x-u}).
 \end{alignat*}$$
-
 
 By the law of total expectation for $x\in (0,1)$
 
