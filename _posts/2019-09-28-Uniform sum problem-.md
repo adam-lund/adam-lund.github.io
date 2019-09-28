@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A take on a interview question
+title: Stopping time
 categories:
 ---
 
@@ -25,11 +25,14 @@ $$
  & =   E(\min_{n }\{n  :S_{n-1} >x-u\})\\
  &  =1+E(\tau_{x-u}).
 $$
+
 By the law of total expectation for $x\leq1$
+
 $$
   E(\tau_x)&=\int_0^1 E(\tau_x\mid U_1=u)du\\
   &=\int_0^x 1+E(\tau_{x-u})du  +\int_x^1 1+E(\tau_{x-u})du\\
   &=x-\int_x^0 E(\tau_s)ds+1-x\\
   &=\int_0^x E(\tau_s)ds+E(\tau_0),
 $$
+
 using $E(\tau_{x-u})=0$ for $u>x$, the substitution $s=x-u$ and that $E(\tau_0)=1$. Only $x \mapsto E(\tau_x)=e^{x}$ satisfies this integral equation in particular $E(\tau_1)=e$.
