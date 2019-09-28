@@ -11,7 +11,7 @@ This question --or a variation of it-- is apparently by now a well known questio
 A few weeks ago the question resurfaced for some reason and I started to think  about how you might go about solving it without knowing this convolution result, the $n$-dimensional integral or any other piece of niche knowledge for that matter.
 Of course, if you really want to land a quantitative job, this is not the right approach to take to questions like this. Instead what you should do is: i) look up as many questions and the their answers in books on questions from quantitative job interviews as you can, ii) memorize  these questions and answers meticulously  and iii) when asked a question that you remember the solution to, repeat the solution in a way that makes it seem like you are deriving the answer and not regurgitating it and --and this is important-- at the same time makes your interviewer feel superior.
 
-i)-iii) is *the* industry wide approach to interviewing and apparently results in an interview dynamic that is still second to none when it comes to revealing "how a job candidate thinks". In taking the exact opposite approach to that of i)-iii) I came up with a self contained answer that I haven't seen anywhere else and therefore provide here.
+i)-iii) is *the* industry wide approach to interviewing and apparently results in an interview dynamic that is still second to none when it comes to revealing "how a job candidate thinks". In taking the exact opposite approach to that of i)-iii) I came up with a self contained and suspiciously succinct answer that I haven't seen anywhere else and therefore provide here.
 
 ###### Answer
 
