@@ -11,7 +11,7 @@ Suppose you   independently  sample uniformly from the unit interval and then su
 
 Answer
 
-Let \\((U_i)_{i\in \mathbb{N}}\\) be iid uniform on \\([0,1 ]\\) and consider \\(S_n=\sum_i^nU_i\\).
+Let $ (U_i)_{i\in \mathbb{N}} $ be iid uniform on \\([0,1 ]\\) and consider \\( S_n=\sum_i^nU_i\\).
 
 
 Define \\( \tau_x=\min_n\{n :S_n>x\}\\) for \\(x\leq 1\\) with the convention \\(\tau_x=0\\) when \\(x\leq0\\). Then we want to find \\(E(\tau_1)\\).  
