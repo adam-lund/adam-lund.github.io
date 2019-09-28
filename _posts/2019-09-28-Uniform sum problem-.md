@@ -11,13 +11,13 @@ Suppose you   independently  sample uniformly from the unit interval and then su
 
 Answer
 
-Let $ (U_i)_{i\in \mathbb{N}} $ be iid uniform on \\([0,1 ]\\) and consider \\( S_n=\sum_i^nU_i\\).
+Let $ (U_i)_{i\in \mathbb{N}} $ be iid uniform on $[0,1 ]$ and consider $ S_n=\sum_i^nU_i$.
 
 
-Define \\( \tau_x=\min_n\{n :S_n>x\}\\) for \\(x\leq 1\\) with the convention \\(\tau_x=0\\) when \\(x\leq0\\). Then we want to find \\(E(\tau_1)\\).  
+Define $ \tau_x=\min_n\{n :S_n>x\}$ for $x\leq 1$ with the convention $\tau_x=0$ when $x\leq0$. Then we want to find $E(\tau_1)$.  
 
 
-Clearly \\(S_{\tau_x}=S_{\tau_x+1 -1}\\) so  \\(\tau_x+1\\) is the smallest \\(n\in \mathbb{N}\\) such that \\(S_{n-1}>x\\). Using this fact and the independence we have   for \\(x\leq1\\)
+Clearly $S_{\tau_x}=S_{\tau_x+1 -1}$ so  $\tau_x+1$ is the smallest $n\in \mathbb{N}$ such that $S_{n-1}>x$. Using this fact and the independence we have   for $x\leq1$
 
 $$\begin{alignat*}{4}
   E(\tau_x\mid U_1=u)
@@ -27,7 +27,7 @@ $$\begin{alignat*}{4}
 \end{alignat*}$$
 
 
-By the law of total expectation for \\(x\in (0,1)\\)
+By the law of total expectation for $x\in (0,1)$
 
 $$\begin{align}  E(\tau_x)&=\int_0^1 E(\tau_x\mid U_1=u)du\\
   &=\int_0^x 1+E(\tau_{x-u})du  +\int_x^1 1+E(\tau_{x-u})du\\
@@ -35,4 +35,4 @@ $$\begin{align}  E(\tau_x)&=\int_0^1 E(\tau_x\mid U_1=u)du\\
   &=\int_0^x E(\tau_s)ds+E(\tau_0),
 \end{align}$$
 
-using \\(E(\tau_{x-u})=0\\) for \\(u>x\\), the substitution \\(s=x-u\\) and that \\(E(\tau_0)=1\\). Only \\(x \mapsto E(\tau_x)=e^{x}\\) satisfies this integral equation in particular \\(E(\tau_1)=e\\).
+using $E(\tau_{x-u})=0$ for $u>x$, the substitution $s=x-u$ and that $E(\tau_0)=1$. Only $x \mapsto E(\tau_x)=e^{x}$ satisfies this integral equation in particular $E(\tau_1)=e$.
