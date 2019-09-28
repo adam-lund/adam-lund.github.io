@@ -24,7 +24,8 @@ $$\begin{alignat*}{4}
 &  =  E(\min_{n }\{n:\sum_{i=1}^{n-1}U_{i+1} >x-u\}\mid U_1=u)\\
  & =   E(\min_{n }\{n  :S_{n-1} >x-u\})\\
  &  =1+E(\tau_{x-u}).
-\end{alignat*}
+\end{alignat*}$$
+
 
 By the law of total expectation for \\(x\in (0,1)\\)
 
