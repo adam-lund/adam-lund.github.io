@@ -33,8 +33,10 @@ $$\begin{align}  E(\tau_x)&=\int_0^1 E(\tau_x\mid U_1=u)du\\
   &=\int_0^x E(\tau_s)ds+E(\tau_0),
 \end{align}$$
 
-using $E(\tau_{x-u})=0$ for $u>x$, the substitution $s=x-u$ and that $E(\tau_0)=1$. Only $x \mapsto E(\tau_x)=e^{x}$ satisfies this integral equation in particular $E(\tau_1)=e$.
+using $E(\tau_{x-u})=0$ for $u>x$, the substitution $s=x-u$ and that $E(\tau_0)=1$.
+ Only $x \mapsto E(\tau_x)=e^{x}$ satisfies this integral equation in particular $E(\tau_1)=e$.
 
-
+Note that for $x>1$ we cannot split up the integral to get the integral equation.
+So in this case we don't obtain the function $e^x$ as the solution. So what do we get for $x>1$? 
 
 Happy birthday!
