@@ -20,7 +20,7 @@ Clearly $S_{\tau_x}=S_{\tau_x+1 -1}$ so  $\tau_x+1$ is the smallest $n\in \mathb
 
 $$\begin{alignat*}{4}
   E(\tau_x\mid U_1=u)
-&  =  E\Big(\min_{n }\Big\{n:\sum_{i=1}^{n-1}U_{i+1} >x-u\Big\}\Big\mid U_1=u)\\
+&  =  E\Bigl(\min_{n }\Bigl\{n:\sum_{i=1}^{n-1}U_{i+1} >x-u\Bigr\}\mid U_1=u\Bigr)\\
  & =   E(\min_{n }\{n  :S_{n-1} >x-u\})\\
  &  =1+E(\tau_{x-u}).
 \end{alignat*}$$
