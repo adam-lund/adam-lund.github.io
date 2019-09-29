@@ -6,10 +6,10 @@ categories:
 
 *Suppose you  independently  sample uniformly from the unit interval and then sum these samples. On average how many times would you have to do this before the sum is  bigger than one?*
 
-This question --or a variation of it-- is apparently by now a well known question from a 1958 Putnam examination. I was unaware of that when I first encountered it as part of  an entrance test I had to solve to get access to a round of interviews with a certain (quantitative?) company two years ago. Also I couldn't find a way to solve it back then since my solution relied on integrating the tail of the distribution of the $n$-fold convolution of iid uniform(0,1) variables to obtain the desired expectation.  Off the top of my head I didn't (and still don't) know this distribution though it does have a closed form expression (originally derived by Laplace I think). An alternative and related solution strategy, that requires that you know the volume under the $n$-dimensional simplex  (it is $1/n!$ by the way), makes the problem fairly easy to solve as well. I'd expect very few people to know this volume or integral so this solution is also a bit unsatisfactory.    
+This question --or a variation of it-- is apparently by now a well known problem from a 1958 Putnam examination. I was unaware of that when I first encountered it as part of  an entrance test I had to solve to get access to a round of interviews with a certain (quantitative?) company two years ago. Also I couldn't find a way to solve it back then since my solution relied on integrating the tail of the distribution of the $n$-fold convolution of iid uniform(0,1) variables to obtain the desired expectation.  Off the top of my head I didn't (and still don't) know this distribution though it does have a closed form expression (originally derived by Laplace I think). An alternative and related solution strategy, that requires that you know the volume under the $n$-dimensional simplex  (it is $1/n!$ by the way), makes the problem fairly easy to solve as well. I'd expect very few people to know this volume or integral so this solution is also a bit unsatisfactory.    
 
 A few weeks ago the question resurfaced for some reason and I started to think  about how you might go about solving it without knowing the convolution result, the $n$-dimensional integral or any other piece of niche knowledge for that matter.
-Of course, if your aim is to land a quantitative job, this is not the right approach to take to questions like this. Instead what you should do is: i) look up as many questions and the their answers in books on questions from quantitative job interviews as you can, ii) memorize  these questions and answers meticulously  and iii) when asked a question that you remember the solution to, repeat the solution in a way that makes it seem like you are deriving the answer and not regurgitating it and --and this is important-- at the same time makes your interviewer feel superior.
+Of course, if your aim is to land a quantitative job, this is not the right approach to take to questions like this. Instead what you should do is: i) look up as many questions and their answers in books on questions from quantitative job interviews as you can, ii) memorize  these questions and answers meticulously  and iii) when asked a question that you remember the solution to, repeat the solution in a way that makes it seem like you are deriving the answer and not regurgitating it and --and this is important-- at the same time makes your interviewer feel superior.
 
 i)-iii) is *the* industry wide approach to interviewing and apparently results in an interview dynamic that is still second to none when it comes to revealing "how a job candidate thinks". In taking the exact opposite approach to that of i)-iii) I came up with a self contained and suspiciously succinct answer that I haven't seen anywhere else and therefore thought I'd give here.
 
@@ -20,7 +20,7 @@ Clearly $S_{\tau_x}=S_{\tau_x+1 -1}$ so  $\tau_x+1$ is the smallest $n\in \mathb
 
 $$\begin{alignat*}{4}
   E(\tau_x\mid U_1=u)
-&  =  E(\min_{n }\{n:\sum_{i=1}^{n-1}U_{i+1} >x-u\}\mid U_1=u)\\
+&  =  E\Big(\min_{n }\Big\{n:\sum_{i=1}^{n-1}U_{i+1} >x-u\Big\}\Big\mid U_1=u)\\
  & =   E(\min_{n }\{n  :S_{n-1} >x-u\})\\
  &  =1+E(\tau_{x-u}).
 \end{alignat*}$$
