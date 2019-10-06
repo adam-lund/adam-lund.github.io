@@ -6,7 +6,7 @@ permalink: /research/
 
 #### Paper
 
-1. **Lund, A.**, M. Vincent, and N. R. Hansen. *Penalized estimation in large-scale generalized linear array models*. [Journal of Computational and Graphical Statistics](https://www.tandfonline.com/doi/abs/10.1080/10618600.2017.1279548?journalCode=ucgs20).
+1. **Lund, A.**, M. Vincent, and N. R. Hansen (2017). *Penalized estimation in large-scale generalized linear array models*. [Journal of Computational and Graphical Statistics](https://www.tandfonline.com/doi/abs/10.1080/10618600.2017.1279548?journalCode=ucgs20).
 [arXiv link](https://arxiv.org/pdf/1510.03298.pdf).
 2. Mogensen, S. W., **A. Lund**, and N. R. Hansen (2017). *Sparse maximin aggregation of neuronal activity*. [SPARS2017](http://spars2017.lx.it.pt/index_files/papers/SPARS2017_Paper_45.pdf).
 3. **Lund, A.** (2017). *Spatio-Temporal Modeling of Neuron Fields*.  [Department of Mathematical Sciences, University of Copenhagen](http://www.math.ku.dk/noter/filer/phd17al.pdf). Ph. D. thesis.
