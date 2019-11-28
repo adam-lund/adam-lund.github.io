@@ -12,7 +12,7 @@ permalink: /research/
 3. **Lund, A.** (2017). *Spatio-Temporal Modeling of Neuron Fields*.  [Department of Mathematical Sciences, University of Copenhagen](http://www.math.ku.dk/noter/filer/phd17al.pdf). Ph. D. thesis.
 4. **Lund, A.** and N. R. Hansen (2019). *Sparse Network Estimation for Dynamical Spatio-temporal Array Models*. [Journal of Multivariate Analysis](https://www.sciencedirect.com/science/article/pii/S0047259X18305554).
 [arXiv link](https://arxiv.org/pdf/1802.08982.pdf).
-5. **Lund, A.**, S. W. Mogensen, and N. R. Hansen (2019). *Soft maximin aggregation of heterogeneous array data*. Preprint.
+5. **Lund, A.**, S. W. Mogensen, and N. R. Hansen (2019+). *Soft maximin aggregation of heterogeneous array data*. Preprint.
 [arXiv link](https://arxiv.org/pdf/1805.02407.pdf).
 
 #### Software

@@ -21,7 +21,7 @@ avatar: /images/logo.jpeg
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: adam.lund@math.ku.dk
-  github: tvw146
+  github: adam-lund
   linkedin:
 
 
@@ -34,7 +34,7 @@ google_analytics: UA-43339302-11
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
-url: http://tvw146.github.io
+url: http://adam-lund.github.io
 enforce_ssl:
 
 # If you're hosting your site at a Project repository on GitHub pages
