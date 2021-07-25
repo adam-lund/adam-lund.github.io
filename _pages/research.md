@@ -20,3 +20,4 @@ permalink: /research/
 1. **Lund, A.** (2018). *glamlasso: Penalization in Large Scale Generalized Linear Array Models*. R package version 3.0. [CRAN](https://cran.r-project.org/web/packages/glamlasso/index.html).
 2. **Lund, A.** (2018). *dynamo: Fit a Stochastic Dynamical Array Model to Array Data*. R package version 1.0. [CRAN](https://cran.r-project.org/web/packages/dynamo/index.html).
 3. **Lund, A.** (2020). *SMMA: Soft Maximin Estimation for Large Scale Array-Tensor Models*. R package version 1.0.3. [CRAN](https://cran.r-project.org/web/packages/SMMA/index.html).
+4. **Lund, A.** (2021). *SMME: Soft Maximin Estimation for Large Scale Heterogeneous Data*. R package version 1.0.1. [CRAN](https://cran.r-project.org/web/packages/SMME/index.html).
