@@ -21,7 +21,7 @@ permalink: /research/
 #### Software
 
 1. **Lund, A.** (2022). *pysmme: Soft Maximin Estimation for Large Scale Heterogeneous Data*. Python package version 1.0. [PyPi](https://pypi.org/project/pysmme/).
-100. **Lund, A.** (2021). *FRESHD: Soft Maximin Estimation for Large Scale Heterogeneous Data*. R package version 1.0.1. [CRAN](https://cran.r-project.org/web/packages/SMME/index.html).
+100. **Lund, A.** (2021). *FRESHD: Fast Robust Estimation of Signals in Heterogeneous Data *. R package version 1.0.1. [CRAN](https://cran.r-project.org/web/packages/FRESHD/index.html).
 1. **Lund, A.** (2021). *SMME: Soft Maximin Estimation for Large Scale Heterogeneous Data*. R package version 1.0.1. [CRAN](https://cran.r-project.org/web/packages/SMME/index.html).
 2. **Lund, A.** (2020). *SMMA: Soft Maximin Estimation for Large Scale Array-Tensor Models*. R package version 1.0.3. [CRAN](https://cran.r-project.org/web/packages/SMMA/index.html).
 3. **Lund, A.** (2018). *glamlasso: Penalization in Large Scale Generalized Linear Array Models*. R package version 3.0. [CRAN](https://cran.r-project.org/web/packages/glamlasso/index.html).
